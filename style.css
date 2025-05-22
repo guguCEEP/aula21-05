@@ -1,0 +1,66 @@
+#relogio{
+    font-family: "Orbitron";
+    font-size: xx-large;
+    text-align: center;
+}
+#cronometro{
+    font-family: "Orbitron";
+    font-size: xx-large;
+    text-align: center;
+    color: chartreuse;
+        
+
+}
+:root {
+    --primary-color: #1E3A8A;
+    --secondary-color: #6B7280;
+    --accent-color: #2563EB;
+    --background-color: #F3F4F6;
+    --text-color: #111827;
+    --white: #FFFFFF;
+    --border-radius: 8px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: var(--spacing-lg);
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin-bottom: var(--spacing-sm);
+    color: var(--primary-color);
+}
+
+#relogio, #cronometro {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--accent-color);
+    margin: var(--spacing-md) 0;
+}
+
+button {
+    background-color: var(--accent-color);
+    color: var(--white);
+    border: none;
+    padding: var(--spacing-sm) var(--spacing-md);
+    margin: var(--spacing-sm);
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--primary-color);
+}
+
+div {
+    margin-top: var(--spacing-md);
+}
